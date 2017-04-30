@@ -2,9 +2,10 @@
   .row
     .panel.panel-default
       .panel-heading
-        %h1 Fix Pic
+        %h1 Make Changes?
       .panel-body
         .current_image
           %strong.center Current Picture
           = image_tag @pic.image.url(:medium)
         =render 'form'
+        = link_to "Back", :back, class: "btn btn-default"
