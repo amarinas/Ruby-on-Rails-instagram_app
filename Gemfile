@@ -53,5 +53,6 @@ group :development do
   gem 'spring'
   gem 'hirb'
   gem 'rails-footnotes', '~> 4.1', '>= 4.1.8'
+  gem 'acts_as_votable', '~> 0.10.0'
 
 end
